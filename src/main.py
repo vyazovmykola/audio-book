@@ -9,6 +9,7 @@ pages = len(pdfreader.pages)
 
 player = pyttsx3.init()
 
+
 for num in range(pages):
     page = pdfreader.pages[num]
     text = page.extract_text()
